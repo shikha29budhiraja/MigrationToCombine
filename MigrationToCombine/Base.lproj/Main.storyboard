@@ -73,6 +73,7 @@
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="Whs-qo-jSq"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="vTU-K7-npN"/>
                                 </connections>
                             </tableView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" id="dM5-nI-82R">

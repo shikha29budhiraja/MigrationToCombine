@@ -8,8 +8,8 @@
 import UIKit
 
 //MARK: - TableView DataSource
-
-extension CustomViewController: UITableViewDataSource {
+extension CustomViewController: UITableViewDataSource, UITableViewDelegate {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return customModels.count
     }
@@ -30,10 +30,11 @@ extension CustomViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
     }
-    
+           return 100
+       }
 }
+
 
 //MARK: - CustomCellAction
 
