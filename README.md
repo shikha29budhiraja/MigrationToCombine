@@ -6,8 +6,9 @@ This project provides 3 diffrent ways to bind data between View AND ViewCintroll
 3: Combine PubSub
 
 Below are three main fucntions to bind data:
+
     func bindDataUsingProtocol(bindType:BindingType )
-    func bindDataUsingClosure(_ cell: CustomTableViewCell) {
-    func bindDataUsingCombine(_ cell: CustomTableViewCell) {
+    func bindDataUsingClosure(_ cell: CustomTableViewCell)
+    func bindDataUsingCombine(_ cell: CustomTableViewCell)
 
 
