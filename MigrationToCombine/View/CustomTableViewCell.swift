@@ -16,7 +16,7 @@ enum BindingType {
 }
 
 protocol CustomCellAction {
-    func sendDataUsingProtocol(bindType:BindingType )
+    func bindDataUsingProtocol(bindType:BindingType )
 }
 
 class CustomTableViewCell: UITableViewCell {
@@ -40,7 +40,7 @@ class CustomTableViewCell: UITableViewCell {
     
     @IBAction func usingProtocolTapped(_ sender: Any) {
         //Sending Data Using Protocol
-        delegate?.sendDataUsingProtocol(bindType: .protocolBind(customModel))
+        delegate?.bindDataUsingProtocol(bindType: .protocolBind(customModel))
     }
     
     @IBAction func usingClosureTapped(_ sender: Any) {

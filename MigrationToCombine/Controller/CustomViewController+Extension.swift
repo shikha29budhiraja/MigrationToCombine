@@ -39,7 +39,7 @@ extension CustomViewController: UITableViewDataSource {
 
 //Binding Using Protocol
 extension CustomViewController: CustomCellAction {
-    func sendDataUsingProtocol(bindType: BindingType) {
+    func bindDataUsingProtocol(bindType: BindingType) {
         showAlertView(bindtype: bindType)
     }
 }
